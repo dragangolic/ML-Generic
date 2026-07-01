@@ -1,7 +1,7 @@
 import os, sys
 import pandas as pd
 import numpy as np
-from exception import CustomException
+from src.exception import CustomException
 import dill
 
 def save_object(file_path, obj):
